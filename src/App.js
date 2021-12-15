@@ -56,7 +56,7 @@ function App() {
       return false 
     });
 
-    if(!indexForRemove){
+    if(indexForRemove !== null){
       return todoList
     } 
     todoList.splice(indexForRemove,1);
